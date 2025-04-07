@@ -1,6 +1,6 @@
 site_name: Key Mapper Documentation
-site_author: sds100
-repo_url: https://github.com/sds100/KeyMapper
+site_author: keymapperorg
+repo_url: https://github.com/keymapperorg/KeyMapper
 site_description: Documentation website for the Key Mapper Android app.
 site_url: https://docs.keymapper.club/
 use_directory_urls: true
