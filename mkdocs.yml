@@ -6,9 +6,9 @@ site_url: https://docs.keymapper.club/
 use_directory_urls: true
 nav:
   - Home: index.md
-  - Quick Start Guide: quick-start.md
-  - FAQ: faq.md
-  #  - Share Your Key Maps Here! 👐: sharing.md
+  - Troubleshooting: faq.md
+  - Tutorials:
+      - Make a volume button toggle the flashlight on the lockscreen: tutorials/simple-volume.md
   - User Guide:
       - Key Maps: user-guide/keymaps.md
       - Fingerprint Gesture Maps (2.2.0+, Android 8.0+): user-guide/fingerprint-gestures.md
