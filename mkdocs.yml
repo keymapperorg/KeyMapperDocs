@@ -1,6 +1,6 @@
 site_name: Key Mapper Documentation
-site_author: sds100
-repo_url: https://github.com/sds100/KeyMapper
+site_author: keymapperorg
+repo_url: https://github.com/keymapperorg/KeyMapper
 site_description: Documentation website for the Key Mapper Android app.
 site_url: https://docs.keymapper.club/
 use_directory_urls: true
@@ -72,6 +72,15 @@ extra:
       link: https://www.f-droid.org/en/packages/io.github.sds100.keymapper/
     - icon: kofi
       link: https://ko-fi.com/sethschroeder
+  analytics:
+    provider: Google
+    property: G-967WQNWVFQ
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation. With your consent,
+      you're helping us to make our documentation better for everyone.
 
 markdown_extensions:
   - attr_list
@@ -98,29 +107,29 @@ markdown_extensions:
 plugins:
   - redirects:
       redirect_maps:
-        'redirects/trigger-by-intent.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#allow-other-apps-to-trigger-this-key-map-230'
-        'redirects/grant-write-secure-settings.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/adb-permissions#write_secure_settings'
-        'redirects/faq.md': 'https://keymapperorg.github.io/KeyMapper/faq'
-        'redirects/quick-start.md': 'https://keymapperorg.github.io/KeyMapper/quick-start'
-        'redirects/fingerprint-map-options.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/fingerprint-gestures'
-        'redirects/constraints.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/constraints'
-        'redirects/action.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/actions'
-        'redirects/trigger.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#trigger'
-        'redirects/trigger-options.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#special-options'
-        'redirects/keymap-action-options.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#customising-actions'
-        'redirects/fingerprint-action-options.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/fingerprint-gestures#customising-actions'
-        'redirects/trigger-key-options.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#key-options'
-        'redirects/android-11-device-id-bug-work-around.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/settings#fix-keyboards-that-are-set-to-us-english-230-android-11'
-        'redirects/settings.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/settings'
-        'redirects/report-issues.md': 'https://keymapperorg.github.io/KeyMapper/report-issues'
-        'redirects/fix-optimisation.md': 'https://keymapperorg.github.io/KeyMapper/faq/#key-mapper-keeps-randomly-stoppingcrashingbuggingfreezing'
-        'redirects/shizuku-benefits.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/shizuku#benefits'
-        'redirects/cant-find-accessibility-settings.md': 'https://keymapperorg.github.io/KeyMapper/known-issues#key-mapper-cant-open-the-accessibility-settings-on-some-devices'
-        'redirects/advanced-triggers.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#advanced-triggers'
-        'redirects/floating-buttons.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/floating-buttons'
-        'redirects/floating-layouts.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/floating-buttons'
-        'redirects/floating-button-config.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/floating-buttons'
-        'redirects/assistant-trigger.md': 'https://keymapperorg.github.io/KeyMapper/user-guide/keymaps#side-key-assistant-trigger'
+        'redirects/trigger-by-intent.md': 'https://docs.keymapper.club/user-guide/keymaps#allow-other-apps-to-trigger-this-key-map-230?utm_source=in_app'
+        'redirects/grant-write-secure-settings.md': 'https://docs.keymapper.club/user-guide/adb-permissions#write_secure_settings?utm_source=in_app'
+        'redirects/faq.md': 'https://docs.keymapper.club/faq?utm_source=in_app'
+        'redirects/quick-start.md': 'https://docs.keymapper.club/quick-start?utm_source=in_app'
+        'redirects/fingerprint-map-options.md': 'https://docs.keymapper.club/user-guide/fingerprint-gestures?utm_source=in_app'
+        'redirects/constraints.md': 'https://docs.keymapper.club/user-guide/constraints?utm_source=in_app'
+        'redirects/action.md': 'https://docs.keymapper.club/user-guide/actions?utm_source=in_app'
+        'redirects/trigger.md': 'https://docs.keymapper.club/user-guide/keymaps#trigger?utm_source=in_app'
+        'redirects/trigger-options.md': 'https://docs.keymapper.club/user-guide/keymaps#special-options?utm_source=in_app'
+        'redirects/keymap-action-options.md': 'https://docs.keymapper.club/user-guide/keymaps#customising-actions?utm_source=in_app'
+        'redirects/fingerprint-action-options.md': 'https://docs.keymapper.club/user-guide/fingerprint-gestures#customising-actions?utm_source=in_app'
+        'redirects/trigger-key-options.md': 'https://docs.keymapper.club/user-guide/keymaps#key-options?utm_source=in_app'
+        'redirects/android-11-device-id-bug-work-around.md': 'https://docs.keymapper.club/user-guide/settings#fix-keyboards-that-are-set-to-us-english-230-android-11?utm_source=in_app'
+        'redirects/settings.md': 'https://docs.keymapper.club/user-guide/settings?utm_source=in_app'
+        'redirects/report-issues.md': 'https://docs.keymapper.club/report-issues?utm_source=in_app'
+        'redirects/fix-optimisation.md': 'https://docs.keymapper.club/faq/#key-mapper-keeps-randomly-stoppingcrashingbuggingfreezing?utm_source=in_app'
+        'redirects/shizuku-benefits.md': 'https://docs.keymapper.club/user-guide/shizuku#benefits?utm_source=in_app'
+        'redirects/cant-find-accessibility-settings.md': 'https://docs.keymapper.club/known-issues#key-mapper-cant-open-the-accessibility-settings-on-some-devices?utm_source=in_app'
+        'redirects/advanced-triggers.md': 'https://docs.keymapper.club/user-guide/keymaps#advanced-triggers?utm_source=in_app'
+        'redirects/floating-buttons.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
+        'redirects/floating-layouts.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
+        'redirects/floating-button-config.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
+        'redirects/assistant-trigger.md': 'https://docs.keymapper.club/user-guide/keymaps#side-key-assistant-trigger?utm_source=in_app'
   - search:
       lang:
         - en
