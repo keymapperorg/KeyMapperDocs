@@ -73,7 +73,7 @@ extra:
     - icon: kofi
       link: https://ko-fi.com/sethschroeder
   analytics:
-    provider: Google
+    provider: google
     property: G-967WQNWVFQ
   consent:
     title: Cookie consent
