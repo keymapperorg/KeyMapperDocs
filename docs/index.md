@@ -47,4 +47,4 @@ The Key Mapper documentation aims to provide users with a comprehensive guide to
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=keymapperorg/KeyMapper&type=Date)](https://star-history.com/#keymapperorg/KeyMapper&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=keymapperorg/KeyMapper&type=Date)](https://www.star-history.com/#keymapperorg/KeyMapper&Date)
