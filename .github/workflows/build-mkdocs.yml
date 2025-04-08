@@ -1,24 +1,47 @@
-name: Build mkdocs
+name: mkdocs
 
 on:
   push:
     branches:
-      - master
       - main
 permissions:
   contents: write
 jobs:
-  deploy:
+  build_mkdocs:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
-          python-version: 3.x
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.10
       - uses: actions/cache@v3
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-redirects
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
+
+  deploy_mkdocs:
+    needs: build_mkdocs
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
