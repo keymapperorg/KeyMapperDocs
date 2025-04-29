@@ -63,6 +63,10 @@ Your key map will only work if the lock screen is (not) showing.
 
 Your mapping will only be triggered if you are (not) in a phone call or if your device is ringing.
 
+### Time (3.1.0+)
+
+Your key maps will only work or floating buttons will only show between the selected start and end time.
+
 ### Charging/discharging (2.4.1+)
 
 Your mapping will only be triggered if your device is charging or discharging.
