@@ -238,6 +238,10 @@ respectively.
 
 ### Dismiss all notifications (2.4.0+)
 
+### Interact with app element (3.1.0+)
+
+This lets you interact with a specific user interface element inside other apps. This feature is not fool proof and relies on 3rd party apps properly exposing their UI elements to accessibility services, so this action may not work for all use cases.
+
 ### Dismiss most recent notification (2.4.0+)
 
 ### HTTP Request (3.0.0+)
