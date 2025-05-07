@@ -157,6 +157,12 @@ This will increase or decrease a specific one of these volume streams.
 
 ### Rewind
 
+### Stop media (3.1.0+)
+
+### Step media forward (Android 6.0+, 3.1.0+)
+
+### Step media backward (Android 6.0+, 3.1.0+)
+
 ### Go back
 
 ### Go home
