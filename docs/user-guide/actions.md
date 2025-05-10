@@ -90,6 +90,8 @@ This will start calling the number that you put.
 
 ### Play sound (2.4.0+)
 
+You can either use a system ringtone (Key Mapper 3.1.1+) or choose a custom sound file.
+
 This action will play a sound. Key Mapper will copy the sound file to its own folder, which means you won't have to worry about losing them. Key Mapper will only play one sound at a time and the sound will play forever until it stops or you pause your key maps. Your sounds will be backed up and restored with your key maps as well.
 
 ### Toggle/enable/disable WiFi
