@@ -1,6 +1,6 @@
 # Welcome to Key Mapper Documentation
 
-[Key Mapper](https://github.com/keymapperorg/KeyMapper) is the Android app that changes what the buttons on your devices do!
+[Key Mapper](https://github.com/keymapperorg/KeyMapper) is the Android app for changing the buttons on your device.
 
 The app intercepts key events and allows you to design your own custom actions when a certain key combination is pressed.
 

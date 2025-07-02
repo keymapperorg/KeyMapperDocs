@@ -90,6 +90,8 @@ This will start calling the number that you put.
 
 ### Play sound (2.4.0+)
 
+You can either use a system ringtone (Key Mapper 3.1.1+) or choose a custom sound file.
+
 This action will play a sound. Key Mapper will copy the sound file to its own folder, which means you won't have to worry about losing them. Key Mapper will only play one sound at a time and the sound will play forever until it stops or you pause your key maps. Your sounds will be backed up and restored with your key maps as well.
 
 ### Toggle/enable/disable WiFi
@@ -156,6 +158,12 @@ This will increase or decrease a specific one of these volume streams.
 ### Fast forward
 
 ### Rewind
+
+### Stop media (3.1.0+)
+
+### Step media forward (Android 6.0+, 3.1.0+)
+
+### Step media backward (Android 6.0+, 3.1.0+)
 
 ### Go back
 
@@ -237,6 +245,10 @@ respectively.
 ### Do nothing
 
 ### Dismiss all notifications (2.4.0+)
+
+### Interact with app element (3.1.0+)
+
+This lets you interact with a specific user interface element inside other apps. This feature is not fool proof and relies on 3rd party apps properly exposing their UI elements to accessibility services, so this action may not work for all use cases.
 
 ### Dismiss most recent notification (2.4.0+)
 
