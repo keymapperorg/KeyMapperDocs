@@ -2,6 +2,18 @@
 
 This app follows something inspired from Clean Architecture and package-by-feature.
 
+## Modules
+
+Key Mapper is becoming a very complex application with FOSS and closed source components so it makes sense to modularize it into separate Gradle modules. The modules are described below.
+
+- `app`: The main Android application module that depends on all the other modules.
+- `base`: This contains the majority of the Key Mapper code and all the user interface code.
+- `common`: Utility classes used across many modules.
+- `data`: The persistance layer, the Room database and preferences. The data schema is defined here, including for closed source components.
+- `shizuku`: The Key Mapper implementation of Shizuku so that we can present our own user interface for setting up Shizuku without their app.
+- `system`: All the adapters for interacting with the Android framework. All key map actions ultimately call the code here.
+- `systemstubs`: Stubs for hidden system APIs. This contains AIDL files as well as manually written Java stubs if the AIDL file would clash with an SDK file.
+
 ## Architecture
 
 All data structures that are persisted are passed around as one of two objects:
