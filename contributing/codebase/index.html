@@ -789,6 +789,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#architecture" class="md-nav__link">
     <span class="md-ellipsis">
       Architecture
@@ -909,6 +918,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#architecture" class="md-nav__link">
     <span class="md-ellipsis">
       Architecture
@@ -946,6 +964,17 @@
 
 <h1 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h1>
 <p>This app follows something inspired from Clean Architecture and package-by-feature.</p>
+<h2 id="modules">Modules<a class="headerlink" href="#modules" title="Permanent link">&para;</a></h2>
+<p>Key Mapper is becoming a very complex application with FOSS and closed source components so it makes sense to modularize it into separate Gradle modules. The modules are described below.</p>
+<ul>
+<li><code>app</code>: The main Android application module that depends on all the other modules.</li>
+<li><code>base</code>: This contains the majority of the Key Mapper code and all the user interface code.</li>
+<li><code>common</code>: Utility classes used across many modules.</li>
+<li><code>data</code>: The persistance layer, the Room database and preferences. The data schema is defined here, including for closed source components.</li>
+<li><code>shizuku</code>: The Key Mapper implementation of Shizuku so that we can present our own user interface for setting up Shizuku without their app.</li>
+<li><code>system</code>: All the adapters for interacting with the Android framework. All key map actions ultimately call the code here.</li>
+<li><code>systemstubs</code>: Stubs for hidden system APIs. This contains AIDL files as well as manually written Java stubs if the AIDL file would clash with an SDK file.</li>
+</ul>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
 <p>All data structures that are persisted are passed around as one of two objects:</p>
 <ol>
