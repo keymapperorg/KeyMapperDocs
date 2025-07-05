@@ -191,7 +191,7 @@ This is only supported on devices that let you change the flashlight brightness.
 
 !!! attention "Requires ROOT permission"
 
-### Move cursor to the end of text
+### Move cursor (3.2.0+)
 
 ### Toggle/show/hide on-screen keyboard (Android 7.0+)
 
