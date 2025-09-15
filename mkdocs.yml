@@ -6,6 +6,7 @@ site_url: https://docs.keymapper.club/
 use_directory_urls: true
 nav:
   - Home: index.md
+  - Quick Start: quick-start.md
   - Troubleshooting: faq.md
   - Tutorials:
       - Make a volume button toggle the flashlight on the lockscreen: tutorials/simple-volume.md
