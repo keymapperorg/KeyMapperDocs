@@ -10,7 +10,7 @@ Key Mapper is becoming a very complex application with FOSS and closed source co
 - `base`: This contains the majority of the Key Mapper code and all the user interface code.
 - `common`: Utility classes used across many modules.
 - `data`: The persistance layer, the Room database and preferences. The data schema is defined here, including for closed source components.
-- `shizuku`: The Key Mapper implementation of Shizuku so that we can present our own user interface for setting up Shizuku without their app.
+- `priv`: "priv" as in priviledged. The Key Mapper implementation of Shizuku so that we can present our own user interface for setting up Shizuku without their app. This module effectively grants Key Mapper priviledged system permissions that normal apps can not acquire.
 - `system`: All the adapters for interacting with the Android framework. All key map actions ultimately call the code here.
 - `systemstubs`: Stubs for hidden system APIs. This contains AIDL files as well as manually written Java stubs if the AIDL file would clash with an SDK file.
 
