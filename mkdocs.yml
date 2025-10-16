@@ -23,6 +23,7 @@ nav:
       - Installing on Oculus Quest: user-guide/oculus.md
       - Shizuku support (2.4.0+, Android 6.0+): user-guide/shizuku.md
       - API: user-guide/api.md
+      - Restricted settings: user-guide/restricted-settings.md
   - Contributing:
       - Introduction: contributing/introduction.md
       - Code base: contributing/codebase.md
@@ -130,6 +131,7 @@ plugins:
         'redirects/floating-layouts.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
         'redirects/floating-button-config.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
         'redirects/assistant-trigger.md': 'https://docs.keymapper.club/user-guide/keymaps#side-key-assistant-trigger?utm_source=in_app'
+        'redirects/restricted-settings.md': 'https://docs.keymapper.club/user-guide/restricted-settingsutm_source=in_app'
   - search:
       lang:
         - en
