@@ -130,7 +130,8 @@ plugins:
         'redirects/floating-buttons.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
         'redirects/floating-layouts.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
         'redirects/floating-button-config.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
-        'redirects/assistant-trigger.md': 'https://docs.keymapper.club/user-guide/keymaps#side-key-assistant-trigger?utm_source=in_app'
+        # Do not add utm_source for links that go to a section
+        'redirects/assistant-trigger.md': 'https://docs.keymapper.club/user-guide/keymaps/#side-key-assistant-trigger'
         'redirects/restricted-settings.md': 'https://docs.keymapper.club/user-guide/restricted-settings?utm_source=in_app'
   - search:
       lang:
