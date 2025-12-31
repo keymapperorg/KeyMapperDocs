@@ -17,7 +17,10 @@ The Key Mapper documentation aims to provide users with a comprehensive guide to
 
 --8<-- "preamble.md"
 
-!!! question "Want a tutorial?"
+!!! tip "Get started"
+    The best way to get started is with our [Quick Start Guide](quick-start.md).
+
+!!! question "Want a tutorial for something specific?"
     We've made some [handy tutorials](tutorials-index.md) to help you learn Key Mapper.
 
 !!! discord "Want to ask for help?"
