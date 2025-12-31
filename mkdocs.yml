@@ -2,137 +2,137 @@ site_name: Key Mapper Documentation
 site_author: keymapperorg
 repo_url: https://github.com/keymapperorg/KeyMapper
 site_description: Documentation website for the Key Mapper Android app.
-site_url: https://docs.keymapper.club/
+site_url: https://keymapper.app/
 use_directory_urls: true
 nav:
-  - Home: index.md
-  - Troubleshooting: faq.md
-  - Tutorials:
-      - Make a volume button toggle the flashlight on the lockscreen: tutorials/simple-volume.md
-  - User Guide:
-      - Key Maps: user-guide/keymaps.md
-      - Fingerprint Gesture Maps (2.2.0+, Android 8.0+): user-guide/fingerprint-gestures.md
-      - Floating Buttons (3.0.0+, Android 11.0+): user-guide/floating-buttons.md
-      - Actions: user-guide/actions.md
-      - Constraints: user-guide/constraints.md
-      - Settings: user-guide/settings.md
-      - Back up and Restore (2.1.0+): user-guide/backup-restore.md
-      - ADB Permissions: user-guide/adb-permissions.md
-      - Setup a Key Mapper keyboard: user-guide/key-mapper-keyboard.md
-      - Controlling your mappings: user-guide/controlling-mappings.md
-      - Installing on Oculus Quest: user-guide/oculus.md
-      - Shizuku support (2.4.0+, Android 6.0+): user-guide/shizuku.md
-      - API: user-guide/api.md
-      - Restricted settings: user-guide/restricted-settings.md
-  - Contributing:
-      - Introduction: contributing/introduction.md
-      - Code base: contributing/codebase.md
-  - Report Issues: report-issues.md
-  - Known Issues: known-issues.md
-  - Privacy policy: privacy-policy.md
+    - Home: index.md
+    - Troubleshooting: faq.md
+    - Tutorials:
+          - Make a volume button toggle the flashlight on the lockscreen: tutorials/simple-volume.md
+    - User Guide:
+          - Key Maps: user-guide/keymaps.md
+          - Fingerprint Gesture Maps (2.2.0+, Android 8.0+): user-guide/fingerprint-gestures.md
+          - Floating Buttons (3.0.0+, Android 11.0+): user-guide/floating-buttons.md
+          - Actions: user-guide/actions.md
+          - Constraints: user-guide/constraints.md
+          - Settings: user-guide/settings.md
+          - Back up and Restore (2.1.0+): user-guide/backup-restore.md
+          - ADB Permissions: user-guide/adb-permissions.md
+          - Setup a Key Mapper keyboard: user-guide/key-mapper-keyboard.md
+          - Controlling your mappings: user-guide/controlling-mappings.md
+          - Installing on Oculus Quest: user-guide/oculus.md
+          - Shizuku support (2.4.0+, Android 6.0+): user-guide/shizuku.md
+          - API: user-guide/api.md
+          - Restricted settings: user-guide/restricted-settings.md
+    - Contributing:
+          - Introduction: contributing/introduction.md
+          - Code base: contributing/codebase.md
+    - Report Issues: report-issues.md
+    - Known Issues: known-issues.md
+    - Privacy policy: privacy-policy.md
 
 theme:
-  name: material
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: red
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: light-blue
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    name: material
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: indigo
+          accent: red
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: light-blue
+          accent: red
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
 
-  favicon: images/favicon.ico
-  logo: images/logo.png
-  custom_dir: docs/overrides
-  features:
-    - navigation.instant
-    - content.code.copy
+    favicon: images/favicon.ico
+    logo: images/logo.png
+    custom_dir: docs/overrides
+    features:
+        - navigation.instant
+        - content.code.copy
 
 extra_css:
-  - stylesheets/extra.css
+    - stylesheets/extra.css
 
 extra:
-  social:
-    - icon: fontawesome/brands/discord
-      link: http://www.keymapper.club
-    - icon: fontawesome/solid/envelope
-      link: mailto:contact@keymapper.club
-    - icon: fontawesome/brands/google-play
-      link: https://play.google.com/store/apps/developer?id=sds100
-    - icon: fontawesome/brands/github
-      link: https://github.com/keymapperorg/KeyMapper
-    - icon: fdroid
-      link: https://www.f-droid.org/en/packages/io.github.sds100.keymapper/
-    - icon: kofi
-      link: https://ko-fi.com/sethschroeder
-  analytics:
-    provider: google
-    property: G-967WQNWVFQ
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation. With your consent,
-      you're helping us to make our documentation better for everyone.
+    social:
+        - icon: fontawesome/brands/discord
+          link: http://www.keymapper.club
+        - icon: fontawesome/solid/envelope
+          link: mailto:contact@keymapper.club
+        - icon: fontawesome/brands/google-play
+          link: https://play.google.com/store/apps/developer?id=sds100
+        - icon: fontawesome/brands/github
+          link: https://github.com/keymapperorg/KeyMapper
+        - icon: fdroid
+          link: https://www.f-droid.org/en/packages/io.github.sds100.keymapper/
+        - icon: kofi
+          link: https://ko-fi.com/sethschroeder
+    analytics:
+        provider: google
+        property: G-967WQNWVFQ
+    consent:
+        title: Cookie consent
+        description: >-
+            We use cookies to recognize your repeated visits and preferences, as well
+            as to measure the effectiveness of our documentation. With your consent,
+            you're helping us to make our documentation better for everyone.
 
 markdown_extensions:
-  - attr_list
-  - admonition
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.snippets:
-      base_path: docs/includes
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      options:
-        custom_icons:
-          - docs/overrides/.icons
-  - toc:
-      permalink: true
-      toc_depth: 4
+    - attr_list
+    - admonition
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.snippets:
+          base_path: docs/includes
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+          options:
+              custom_icons:
+                  - docs/overrides/.icons
+    - toc:
+          permalink: true
+          toc_depth: 4
 
 plugins:
-  - redirects:
-      redirect_maps:
-        'redirects/trigger-by-intent.md': 'https://docs.keymapper.club/user-guide/keymaps#allow-other-apps-to-trigger-this-key-map-230?utm_source=in_app'
-        'redirects/grant-write-secure-settings.md': 'https://docs.keymapper.club/user-guide/adb-permissions#write_secure_settings?utm_source=in_app'
-        'redirects/faq.md': 'https://docs.keymapper.club/faq?utm_source=in_app'
-        'redirects/quick-start.md': 'https://docs.keymapper.club/quick-start?utm_source=in_app'
-        'redirects/fingerprint-map-options.md': 'https://docs.keymapper.club/user-guide/fingerprint-gestures?utm_source=in_app'
-        'redirects/constraints.md': 'https://docs.keymapper.club/user-guide/constraints?utm_source=in_app'
-        'redirects/action.md': 'https://docs.keymapper.club/user-guide/actions?utm_source=in_app'
-        'redirects/trigger.md': 'https://docs.keymapper.club/user-guide/keymaps#trigger?utm_source=in_app'
-        'redirects/trigger-options.md': 'https://docs.keymapper.club/user-guide/keymaps#special-options?utm_source=in_app'
-        'redirects/keymap-action-options.md': 'https://docs.keymapper.club/user-guide/keymaps#customising-actions?utm_source=in_app'
-        'redirects/fingerprint-action-options.md': 'https://docs.keymapper.club/user-guide/fingerprint-gestures#customising-actions?utm_source=in_app'
-        'redirects/trigger-key-options.md': 'https://docs.keymapper.club/user-guide/keymaps#key-options?utm_source=in_app'
-        'redirects/android-11-device-id-bug-work-around.md': 'https://docs.keymapper.club/user-guide/settings#fix-keyboards-that-are-set-to-us-english-230-android-11?utm_source=in_app'
-        'redirects/settings.md': 'https://docs.keymapper.club/user-guide/settings?utm_source=in_app'
-        'redirects/report-issues.md': 'https://docs.keymapper.club/report-issues?utm_source=in_app'
-        'redirects/fix-optimisation.md': 'https://docs.keymapper.club/faq/#key-mapper-keeps-randomly-stoppingcrashingbuggingfreezing?utm_source=in_app'
-        'redirects/shizuku-benefits.md': 'https://docs.keymapper.club/user-guide/shizuku#benefits?utm_source=in_app'
-        'redirects/cant-find-accessibility-settings.md': 'https://docs.keymapper.club/known-issues#key-mapper-cant-open-the-accessibility-settings-on-some-devices?utm_source=in_app'
-        'redirects/advanced-triggers.md': 'https://docs.keymapper.club/user-guide/keymaps#advanced-triggers?utm_source=in_app'
-        'redirects/floating-buttons.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
-        'redirects/floating-layouts.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
-        'redirects/floating-button-config.md': 'https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app'
-        # Do not add utm_source for links that go to a section
-        'redirects/assistant-trigger.md': 'https://docs.keymapper.club/user-guide/keymaps/#side-key-assistant-trigger'
-        'redirects/restricted-settings.md': 'https://docs.keymapper.club/user-guide/restricted-settings?utm_source=in_app'
-  - search:
-      lang:
-        - en
+    - redirects:
+          redirect_maps:
+              "redirects/trigger-by-intent.md": "https://docs.keymapper.club/user-guide/keymaps#allow-other-apps-to-trigger-this-key-map-230?utm_source=in_app"
+              "redirects/grant-write-secure-settings.md": "https://docs.keymapper.club/user-guide/adb-permissions#write_secure_settings?utm_source=in_app"
+              "redirects/faq.md": "https://docs.keymapper.club/faq?utm_source=in_app"
+              "redirects/quick-start.md": "https://docs.keymapper.club/quick-start?utm_source=in_app"
+              "redirects/fingerprint-map-options.md": "https://docs.keymapper.club/user-guide/fingerprint-gestures?utm_source=in_app"
+              "redirects/constraints.md": "https://docs.keymapper.club/user-guide/constraints?utm_source=in_app"
+              "redirects/action.md": "https://docs.keymapper.club/user-guide/actions?utm_source=in_app"
+              "redirects/trigger.md": "https://docs.keymapper.club/user-guide/keymaps#trigger?utm_source=in_app"
+              "redirects/trigger-options.md": "https://docs.keymapper.club/user-guide/keymaps#special-options?utm_source=in_app"
+              "redirects/keymap-action-options.md": "https://docs.keymapper.club/user-guide/keymaps#customising-actions?utm_source=in_app"
+              "redirects/fingerprint-action-options.md": "https://docs.keymapper.club/user-guide/fingerprint-gestures#customising-actions?utm_source=in_app"
+              "redirects/trigger-key-options.md": "https://docs.keymapper.club/user-guide/keymaps#key-options?utm_source=in_app"
+              "redirects/android-11-device-id-bug-work-around.md": "https://docs.keymapper.club/user-guide/settings#fix-keyboards-that-are-set-to-us-english-230-android-11?utm_source=in_app"
+              "redirects/settings.md": "https://docs.keymapper.club/user-guide/settings?utm_source=in_app"
+              "redirects/report-issues.md": "https://docs.keymapper.club/report-issues?utm_source=in_app"
+              "redirects/fix-optimisation.md": "https://docs.keymapper.club/faq/#key-mapper-keeps-randomly-stoppingcrashingbuggingfreezing?utm_source=in_app"
+              "redirects/shizuku-benefits.md": "https://docs.keymapper.club/user-guide/shizuku#benefits?utm_source=in_app"
+              "redirects/cant-find-accessibility-settings.md": "https://docs.keymapper.club/known-issues#key-mapper-cant-open-the-accessibility-settings-on-some-devices?utm_source=in_app"
+              "redirects/advanced-triggers.md": "https://docs.keymapper.club/user-guide/keymaps#advanced-triggers?utm_source=in_app"
+              "redirects/floating-buttons.md": "https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app"
+              "redirects/floating-layouts.md": "https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app"
+              "redirects/floating-button-config.md": "https://docs.keymapper.club/user-guide/floating-buttons?utm_source=in_app"
+              # Do not add utm_source for links that go to a section
+              "redirects/assistant-trigger.md": "https://docs.keymapper.club/user-guide/keymaps/#side-key-assistant-trigger"
+              "redirects/restricted-settings.md": "https://docs.keymapper.club/user-guide/restricted-settings?utm_source=in_app"
+    - search:
+          lang:
+              - en
