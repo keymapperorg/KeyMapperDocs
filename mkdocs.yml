@@ -110,6 +110,7 @@ plugins:
     - redirects:
           redirect_maps:
               "discord.md": "https://discord.com/invite/pFaPGHd"
+              "changelog.md": "https://github.com/keymapperorg/KeyMapper/blob/develop/CHANGELOG.md"
               "redirects/trigger-by-intent.md": "https://keymapper.app/user-guide/keymaps#allow-other-apps-to-trigger-this-key-map-230?utm_source=in_app"
               "redirects/grant-write-secure-settings.md": "https://keymapper.app/user-guide/adb-permissions#write_secure_settings?utm_source=in_app"
               "redirects/faq.md": "https://keymapper.app/faq?utm_source=in_app"
