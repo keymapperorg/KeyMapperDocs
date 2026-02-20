@@ -36,7 +36,7 @@ You should also see your key map in the list.
 
 Now, lock your device, and with the screen on, long press volume down. Now you can toggle the flashlight on the lockscreen!
 
-You can't use this key map while the screen is off. To make it work with the screen off, you need to use [an experimental feature]().
+You can't use this key map while the screen is off. To make it work with the screen off, you need to use [an upcoming feature](https://github.com/keymapperorg/KeyMapper/issues/1394).
 
 !!! discord "Want to ask for help?"
     If you've already tried troubleshooting and the tutorials aren't enough, come and ask for help in our [support server.](http://keymapper.club)
