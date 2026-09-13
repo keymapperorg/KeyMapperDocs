@@ -62,9 +62,9 @@ extra_css:
 extra:
     social:
         - icon: fontawesome/brands/discord
-          link: http://www.keymapper.club
+          link: https://keymapper.app/discord
         - icon: fontawesome/solid/envelope
-          link: mailto:contact@keymapper.club
+          link: mailto:contact@keymapper.app
         - icon: fontawesome/brands/google-play
           link: https://play.google.com/store/apps/developer?id=sds100
         - icon: fontawesome/brands/github
