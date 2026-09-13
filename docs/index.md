@@ -13,7 +13,7 @@ The core functionality of the app is proudly free and open-source software (FOSS
 ![GitHub release](https://img.shields.io/github/release/keymapperorg/KeyMapper.svg)
 ![fdroid release](https://img.shields.io/f-droid/v/io.github.sds100.keymapper.svg)
 
-The Key Mapper documentation aims to provide users with a comprehensive guide to using and setting up Key Mapper for typical implementations. If you need more help, you can join the [support server](http://keymapper.club) and ask for help.
+The Key Mapper documentation aims to provide users with a comprehensive guide to using and setting up Key Mapper for typical implementations. If you need more help, you can join the [support server](https://keymapper.app/discord) and ask for help.
 
 --8<-- "preamble.md"
 
